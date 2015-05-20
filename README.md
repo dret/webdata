@@ -10,12 +10,12 @@ Documents need to have stable and discoverable URIs. Stability is required so th
 
 ## Two Star: Parseable
 
-CSV, XML, RDF, JSON
+Documents should use standardized data metamodels such as CSV, XML, RDF, JSON, so that they can be easily parsed by consumers. Proprietary metamodels and formats need proprietary code for parsing, and thus are much harder for consumers to process.
 
 
 ## Three Star: Understandable
 
-vocabularies/schemas
+Documents should use well-known or at least well-documented vocabularies/schemas, so that after parsing, interpreting the documents is possible and well-defined. At the very least, the vocabulary/schema must make it possible to discover links in documents, so that consumers can find and follow them.
 
 
 ## Four Star: Linked
