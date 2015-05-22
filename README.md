@@ -1,6 +1,6 @@
 # Web Data
 
-Overview of the Web Data Principles.
+The _Web Data Principles_ is a simple set of guidelines of how to make structured information more useful on the Web. The main idea of _Web Data_ is that it is a set of principles and patterns, and not a specific set of technologies. As such, it is more liberal than the [5-star model of Linked Data](http://5stardata.info/), which makes specific statements about required technologies.
 
 
 ## One Star: Linkable
