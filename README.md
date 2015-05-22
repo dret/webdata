@@ -5,7 +5,7 @@ The _Web Data Principles_ is a simple set of guidelines of how to make structure
 
 ## One Star: Linkable
 
-Documents need to have stable and discoverable URIs. Stability is required so that links to your document can be used as unique and global identifiers. Discoverability is required so that your documents can be found by others who want to link to them.
+Documents need to have stable and discoverable global identifiers. Stability is required so that links to your document can be used as unique and global identifiers. Discoverability is required so that your documents can be found by others who want to link to them.
 
 
 ## Two Star: Parseable
@@ -20,7 +20,7 @@ Documents should use well-known or at least well-documented vocabularies/schemas
 
 ## Four Star: Linked
 
-For your Documents to be a part of the Web, they should link to other documents whenever possible. Always use URIs when linking between documents, so that link identifiers (URIs) can be taken out of context and shared globally.
+For your Documents to be a part of the Web, they should link to other documents whenever possible. Always use global identifiers when linking between documents, so that link identifiers can be taken out of context and shared globally.
 
 
 ## Five Star: Usable
