@@ -7,6 +7,8 @@ The _Web Data Principles_ is a simple set of guidelines of how to make structure
 
 Documents need to have stable and discoverable global identifiers. Stability is required so that links to your document can be used as unique and global identifiers. Discoverability is required so that your documents can be found by others who want to link to them.
 
+If applicable, web data should also allow linking to document fragments, so that links can be more specific than just linking to URI-identified resources. If the media type you're using supports explicit fragment identifiers, have a stable and documented way how you assign and manage identifiers, so that fragment identification is as robust as resource identification.
+
 
 ## Two Star: Parseable
 
