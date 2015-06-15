@@ -24,6 +24,8 @@ Documents should use well-known or at least well-documented vocabularies/schemas
 
 For your Documents to be a part of the Web, they should link to other documents whenever possible. Always use global identifiers when linking between documents, so that link identifiers can be taken out of context and shared globally.
 
+Make links as specific as possible. If the linked resource supports fragement identification, and the link logically should be to a fragment of the resource (and not just the resource as a whole), try to use fragment identifiers when possible.
+
 
 ## Five Star: Usable
 
