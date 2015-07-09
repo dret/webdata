@@ -12,7 +12,7 @@ If applicable, web data should also allow linking to document fragments, so that
 
 ## Two Star: Parseable
 
-Documents should use standardized data metamodels such as CSV, XML, RDF, JSON, so that they can be easily parsed by consumers. Proprietary metamodels and formats need proprietary code for parsing, and thus are harder for consumers to process.
+Documents should use standardized data metamodels such as CSV, XML, RDF, or JSON, so that they can be easily parsed by consumers using standard software. Proprietary metamodels and formats need proprietary code for parsing, and thus are harder for consumers to process.
 
 
 ## Three Star: Understandable
