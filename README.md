@@ -22,7 +22,7 @@ Documents should use well-known or at least well-documented vocabularies/schemas
 
 ## Four Star: Linked
 
-For your Documents to be a part of the Web, they should link to other documents whenever possible. Always use global identifiers when linking between documents, so that link identifiers can be taken out of context and shared globally.
+For your documents to be a part of the Web, they should link to other documents whenever possible. Always use global identifiers when linking between documents, so that link identifiers can be taken out of context and shared globally.
 
 Links should be [typed](https://github.com/dret/hyperpedia/blob/master/concepts.md#link-relation-type) (explicitly or implicitly), so that clients can decide which link to follow when they are traversing a web of interlinked resources to reach application goals.
 
