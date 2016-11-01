@@ -1,0 +1,22 @@
+---
+layout:    default
+permalink: /history
+---
+
+<div class="home">
+
+  <h1 class="page-heading">History of all Updates</h1>
+
+  <p>The following list shows all manual posts. A much more detailed history is available <a href="https://github.com/dret/webdata/commits">through the list of all commits for the GitHub repository</a>.</p>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">Subscribe to updates <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via the feed</a>.</p>
+
+</div>
