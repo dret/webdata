@@ -10,7 +10,7 @@ title: Web Data
 email: dret@ca.com
 description: > # this means to ignore newlines until "baseurl:"
   How to publish data on the Web.
-  The Web Data Principles help you to be open and webby.
+  Web Data principles help you to be open and webby.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://webdata.systems" # the base hostname & protocol for your site
 twitter_username: dret
@@ -20,3 +20,10 @@ github_username:  dret
 markdown: kramdown
 theme: jekyll-swiss
 theme_color: yellow
+
+# !!! This section is sepcific for the jekyll-swiss theme !!!
+# Optional social link, you can choose from the following options:
+# twitter (default), instagram, medium, or dribbble
+social_link: twitter
+social_username: dret
+github_repo: webdata
