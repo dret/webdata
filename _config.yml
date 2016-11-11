@@ -18,4 +18,5 @@ github_username:  dret
 
 # Build settings
 markdown: kramdown
-theme: jekyll-athena
+theme: jekyll-swiss
+theme_color: yellow
