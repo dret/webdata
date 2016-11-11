@@ -6,7 +6,7 @@
 # feature for the data you need to update frequently.
 
 # Site settings
-title: Web Data Principles
+title: Web Data
 email: dret@ca.com
 description: > # this means to ignore newlines until "baseurl:"
   How to publish data on the Web.
