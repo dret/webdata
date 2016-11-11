@@ -3,4 +3,30 @@ layout: post
 title:  "Web Data is using Jekyll"
 ---
 
-...
+<p>The <em>Web Data Principles</em> are a simple set of guidelines about how to make structured information more useful on the Web. The main idea of <em>Web Data</em> is that it is a simple set of principles and patterns, and not a specific set of technologies. As such, it is more liberal than the <a href="http://5stardata.info/">5-star model of Linked Data</a>, which makes specific statements about required technologies. For a much more detailed set of recommendations, check out <a href="http://www.w3.org/TR/dwbp/">the W3C's "Data on the Web Best Practices" document</a>.</p>
+
+<h3>One Star: Linkable</h3>
+
+<p>Documents need to have stable and discoverable global identifiers. Stability is required so that links to your document can be used as unique and global identifiers. Discoverability is required so that your documents can be found by others who want to link to them.</p>
+
+<p>If applicable, web data should also allow linking to document fragments, so that links can be more specific than just linking to URI-identified resources. If the media type you're using supports explicit fragment identifiers, have a stable and documented way how you assign and manage identifiers, so that fragment identification is as robust as resource identification.</p>
+
+<h3>Two Star: Parseable</h3>
+
+<p>Documents should use standardized data metamodels such as CSV, XML, RDF, or JSON, so that they can be easily parsed by consumers using standard software. Proprietary metamodels and formats need proprietary code for parsing, and thus are harder for consumers to process.</p>
+
+<h3>Three Star: Understandable</h3>
+
+<p>Documents should use well-known or at least well-documented vocabularies/schemas, so that after parsing, interpreting the documents is possible and well-defined. At the very least, the vocabulary/schema must make it possible to discover links in documents, so that consumers can find and follow them.</p>
+
+<h3>Four Star: Linked</h3>
+
+<p>For your documents to be a part of the Web, they should link to other documents whenever possible. Always use global identifiers when linking between documents, so that link identifiers can be taken out of context and shared globally.</p>
+
+<p>Links should be <a href="https://github.com/dret/hyperpedia/blob/master/concepts.md#link-relation-type">typed</a> (explicitly or implicitly), so that clients can decide which link to follow when they are traversing a web of interlinked resources to reach application goals.</p>
+
+<p>Make links as specific as possible. If the linked resource supports fragment identification, and the link logically should be to a fragment of the resource (and not just the resource as a whole), try to use fragment identifiers when possible.</p>
+
+<h3>Five Star: Usable</h3>
+
+<p>Label your document with a license, so that others know how they can use it. There are many licenses to choose from, and picking any one of those is better than not picking one at all.</p>
